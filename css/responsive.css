@@ -1,0 +1,115 @@
+@media only screen and (max-width: 1440px) {
+    .hdr-sid-icon {
+        position: absolute;
+        top: 40%;
+        left: 25px;
+        transform: translateY(-50%);
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .hdr-sid-icon {
+        position: absolute;
+        top: 35%;
+        left: 11px;
+        transform: translateY(-50%);
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    html {
+        font-size: 90%;
+    }
+
+    .srv-card {
+        height: 530px;
+        padding: 1.6rem 25px;
+    }
+
+    .price-card {
+        background: #fff;
+        height: 380px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .srv-card {
+        height: 660px;
+    }
+
+    .price-card {
+        padding: 30px 10px;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+    .hdr-sid-icon {
+        display: none;
+    }
+
+
+    .header-text {
+        margin-bottom: 50px;
+    }
+
+    .abt-img {
+        margin-bottom: 50px;
+    }
+
+    .srv-card {
+        height: 450px;
+        padding: 3.6rem 25px;
+    }
+
+    .price-card {
+        height: 480px;
+        padding: 40px 10px;
+    }
+
+    .price-btn {
+        padding: 10px 10px;
+        font-size: 13px;
+    }
+
+    .cntact-btn {
+        text-align: center;
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (max-width: 599px) {
+    .price-card {
+        height: 350px;
+        padding: 60px 30px;
+    }
+
+    .price-btn {
+        padding: 10px 40px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .mail-in {
+        width: auto;
+    }
+
+    .text-end {
+        text-align: center !important;
+    }
+
+    .ftr-title {
+        margin-top: 40px;
+    }
+
+    html {
+        font-size: 60%;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .srv-card {
+        height: 492px;
+        padding: 3.6rem 25px;
+    }
+}
