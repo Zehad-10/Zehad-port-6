@@ -113,8 +113,3 @@
         padding: 3.6rem 25px;
     }
 }
-@media only screen and (max-width: 320px) {
-    .mail-in {
-    width: 100px;
-}
-}
